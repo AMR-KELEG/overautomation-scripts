@@ -3,6 +3,6 @@
 # Get a list of the modified .py files
 modified=$(git diff-index --cached --name-only HEAD | grep *.py)
 
-# Apply black and readd the files to the staging area
+# Apply black and read the files to the staging area
 black $modified
 git add $modified
