@@ -14,3 +14,6 @@ Apply black to files in the staging area before making a git commit (place it un
 
 - `add matplotlib_template.py`
 A custom matplotlib configuration
+
+- `openreview-download-submissions.py`
+Download all the pdf submissions to an OpenReview venue (as pdfs)
